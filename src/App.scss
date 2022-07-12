@@ -1,0 +1,91 @@
+body,
+html,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body,
+html,
+*::after,
+*::before,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+button,
+input {
+  border: 0px;
+  outline: none;
+  width: 100%;
+}
+
+input {
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+button {
+  padding: 0.6rem 1rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+main {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Rubik", sans-serif;
+}
+
+.bg-primary {
+  background-color: #0a1226;
+}
+
+.bg-secondary {
+  background-color: #171f31;
+}
+
+.text-primary {
+  color: #11a7a2;
+}
+
+.text-secondary {
+  color: #fff;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.border-r-06 {
+  border-radius: 0.6rem;
+}
+
+.d-flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+.d-flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.github-user {
+  max-width: 750px;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem 2rem;
+}

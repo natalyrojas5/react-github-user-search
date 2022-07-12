@@ -1,0 +1,9 @@
+.photo,
+.photo img {
+  max-width: 7rem;
+  min-height: 7.5rem;
+}
+.photo img {
+  object-fit: cover;
+  border-radius: 50%;
+}

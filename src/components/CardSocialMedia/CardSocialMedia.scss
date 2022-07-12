@@ -1,0 +1,14 @@
+.card-social-media {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+
+  & div[class^="social-media__"] {
+    display: grid;
+    grid-template-columns: 1rem 1fr;
+    gap: 1rem;
+  }
+  & i {
+    font-size: 1.2rem;
+  }
+}

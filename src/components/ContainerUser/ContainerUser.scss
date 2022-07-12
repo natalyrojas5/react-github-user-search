@@ -1,0 +1,19 @@
+.container-user {
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: 8rem 1fr;
+  gap: 1rem;
+
+  & .photo {
+    grid-row: 1 / 5;
+  }
+  @media (max-width: 991.98px) {
+    & .photo {
+      grid-row: 1 /3;
+    }
+    & .card-statistics,
+    & .card-social-media {
+      grid-column: 1 / 3;
+    }
+  }
+}

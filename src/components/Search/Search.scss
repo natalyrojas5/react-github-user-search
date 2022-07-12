@@ -1,0 +1,24 @@
+.search {
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: 3.5rem 1fr 5rem;
+  align-items: center;
+  gap: 0.8rem;
+
+  &__input input {
+    background-color: transparent;
+    &::placeholder {
+      color: #dfdfdf;
+    }
+  }
+  &__btn button {
+    background-color: #11a7a2;
+    color: #fff;
+  }
+  &__icon {
+    text-align: center;
+  }
+  &__icon i {
+    font-size: 1.5rem;
+  }
+}
