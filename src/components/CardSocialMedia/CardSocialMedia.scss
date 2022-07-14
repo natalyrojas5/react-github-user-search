@@ -3,6 +3,10 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 
+  @media (max-width: 575.98px) {
+    grid-template-columns: 1fr;
+  }
+
   & div[class^="social-media__"] {
     display: grid;
     grid-template-columns: 1rem 1fr;
