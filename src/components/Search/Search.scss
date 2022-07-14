@@ -8,6 +8,9 @@
     grid-template-columns: 1.8rem 1fr 5rem;
     gap: 0.4rem;
   }
+  @media (max-width: 575.98px) {
+    grid-template-columns: 1fr;
+  }
   &__input input {
     background-color: transparent;
     &::placeholder {
@@ -20,6 +23,9 @@
   }
   &__icon {
     text-align: center;
+    @media (max-width: 575.98px) {
+      display: none;
+    }
   }
   &__icon i {
     font-size: 1.5rem;
