@@ -6,6 +6,9 @@
     max-width: 5rem;
     min-height: 5.5rem;
   }
+  @media (max-width: 575.98px) {
+    min-height: 5rem;
+  }
 }
 .photo img {
   object-fit: cover;
