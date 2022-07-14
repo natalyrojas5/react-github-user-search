@@ -50,7 +50,8 @@ main {
   justify-content: center;
   min-height: 100vh;
   font-family: "Rubik", sans-serif;
-  overflow: auto;
+  overflow: hidden;
+  width: 100%;
 }
 
 .bg-primary {
