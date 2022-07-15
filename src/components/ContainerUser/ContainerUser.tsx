@@ -9,7 +9,7 @@ import { CardSocialMedia } from "../CardSocialMedia";
 
 const ContainerUser = () => {
   return (
-    <article className="container-user bg-secondary border-r-06">
+    <article className="container-user bg-secondary border-r-06 b-shadow">
       <Photo />
       <CardUserNames />
       <CardUserBio />

@@ -2,7 +2,7 @@ import "./Search.scss";
 
 const Search = () => {
   return (
-    <div className="search bg-secondary border-r-06">
+    <div className="search bg-secondary border-r-06 b-shadow">
       <div className="search__icon">
         <i className="fa-solid fa-magnifying-glass text-primary"></i>
       </div>
@@ -10,7 +10,7 @@ const Search = () => {
         <input type="text" placeholder="Search GitHub username ..." />
       </div>
       <div className="search__btn">
-        <button type="button" className="border-r-06">
+        <button type="button" className="border-r-06 btn-primary">
           search
         </button>
       </div>

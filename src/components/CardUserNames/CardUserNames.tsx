@@ -7,7 +7,9 @@ const CardUserNames = () => {
         <h1 className="card-user-names__name">The Octocat</h1>
         <p className="card-user-names__username text-primary">@octocal</p>
       </div>
-      <p className="card-user-names__joined">Joined 25 Jun 2011</p>
+      <p className="card-user-names__joined text-gray-300">
+        Joined 25 Jun 2011
+      </p>
     </div>
   );
 };

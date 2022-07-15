@@ -1,0 +1,21 @@
+:root {
+  --c-primary: #11a7a2;
+  --c-white: #ffffff;
+  --c-dark-primary: #0a1226;
+  --c-dark-secondary: #171f31;
+  --c-gray: #878787;
+  --c-gray-100: #cccccc;
+  --c-gray-300: #d4d4d4;
+  --c-purple-200: #fff;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --c-dark-primary: #d3edff66;
+    --c-white: #2c2c2c;
+    --c-dark-secondary: #ffff;
+    --c-gray-100: #ababab;
+    --c-gray-300: #777777;
+    --c-purple-200: #787db0;
+  }
+}

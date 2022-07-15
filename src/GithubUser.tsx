@@ -1,8 +1,8 @@
-import "./App.scss";
+import "./GithubUser.scss";
 import { Header } from "./components/Header";
 import { ContainerUser } from "./components/ContainerUser";
 
-const App = () => {
+const GithubUser = () => {
   return (
     <section className="github-user">
       <Header />
@@ -11,4 +11,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default GithubUser;
