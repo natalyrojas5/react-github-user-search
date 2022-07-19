@@ -1,4 +1,4 @@
-import WrapperSkeleton from "../../wrappers/Skeleton/WrapperSkeleton";
+import { WrapperSkeleton } from "../../wrappers/Skeleton";
 
 const wrapper_styles = {
   width: "100%",
