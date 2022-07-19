@@ -1,6 +1,10 @@
+import Skeleton from "./Skeleton";
 import "./CardUserNames.scss";
 
-const CardUserNames = () => {
+const CardUserNames = (isLoading = true) => {
+  if (isLoading) {
+    return <Skeleton />;
+  }
   return (
     <div className="card-user-names">
       <div>
