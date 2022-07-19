@@ -11,10 +11,10 @@ const ContainerUser = () => {
   return (
     <article className="container-user bg-secondary border-r-06 b-shadow">
       <Photo />
-      <CardUserNames />
-      <CardUserBio />
-      <CardStatistics />
-      <CardSocialMedia />
+      <CardUserNames isLoading />
+      <CardUserBio isLoading />
+      <CardStatistics isLoading />
+      <CardSocialMedia isLoading />
     </article>
   );
 };

@@ -1,7 +1,7 @@
 import { SkeletonElement } from "../../components/Skeleton";
 import "./CardSocialMedia.scss";
 
-const CardSocialMedia = (isLoading = true) => {
+const CardSocialMedia = (isLoading: any) => {
   return (
     <div className="card-social-media text-purple-200">
       <div className="social-media__location">

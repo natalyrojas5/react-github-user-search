@@ -1,7 +1,7 @@
 import Skeleton from "./Skeleton";
 import "./CardUserNames.scss";
 
-const CardUserNames = (isLoading = true) => {
+const CardUserNames = (isLoading: any) => {
   if (isLoading) {
     return <Skeleton />;
   }

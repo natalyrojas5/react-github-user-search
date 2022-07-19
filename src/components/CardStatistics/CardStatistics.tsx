@@ -1,7 +1,7 @@
 import { SkeletonElement } from "../../components/Skeleton";
 import "./CardStatistics.scss";
 
-const CardStatistics = (isLoading = true) => {
+const CardStatistics = (isLoading: any) => {
   return (
     <div className="card-statistics bg-primary border-r-06">
       <div className="card-statistics__repos">

@@ -1,6 +1,6 @@
 import { SkeletonElement } from "../../components/Skeleton";
 
-const CardUserBio = (isLoading = true) => {
+const CardUserBio = (isLoading: any) => {
   if (isLoading) {
     return <SkeletonElement wrapperStyles={{ height: "1.2rem" }} />;
   }
