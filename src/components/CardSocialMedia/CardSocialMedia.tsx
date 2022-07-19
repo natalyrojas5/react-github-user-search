@@ -1,23 +1,40 @@
+import { SkeletonElement } from "../../components/Skeleton";
 import "./CardSocialMedia.scss";
 
-const CardSocialMedia = () => {
+const CardSocialMedia = (isLoading = true) => {
   return (
     <div className="card-social-media text-purple-200">
       <div className="social-media__location">
-        <i className="fas fa-map-marker-alt"></i>
-        <p>San Francisco</p>
+        <i className="fas fa-map-marker-alt "></i>
+        {isLoading ? (
+          <SkeletonElement wrapperStyles={{ height: "1.2rem" }} />
+        ) : (
+          <p>San Francisco</p>
+        )}
       </div>
       <div className="social-media__twitter">
         <i className="fab fa-twitter"></i>
-        <p>Not Available</p>
+        {isLoading ? (
+          <SkeletonElement wrapperStyles={{ height: "1.2rem" }} />
+        ) : (
+          <p>Not Available</p>
+        )}
       </div>
       <div className="social-media__github">
         <i className="fas fa-link"></i>
-        <p>https:/...</p>
+        {isLoading ? (
+          <SkeletonElement wrapperStyles={{ height: "1.2rem" }} />
+        ) : (
+          <p>https:/...</p>
+        )}
       </div>
       <div className="social-media__company">
         <i className="fa-solid fa-building"></i>
-        <p>github</p>
+        {isLoading ? (
+          <SkeletonElement wrapperStyles={{ height: "1.2rem" }} />
+        ) : (
+          <p>github</p>
+        )}
       </div>
     </div>
   );
