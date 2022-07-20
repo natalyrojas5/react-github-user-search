@@ -1,12 +1,29 @@
 import "./GithubUser.scss";
-import { Header } from "@/components/Header";
-import { ContainerUser } from "@/components/ContainerUser";
+
+import {
+  Photo,
+  Switch,
+  Search,
+  CardUserNames,
+  CardUserBio,
+  CardStatistics,
+  CardSocialNetworks,
+} from "@/components";
 
 const GithubUser = () => {
   return (
     <section className="github-user">
-      <Header />
-      <ContainerUser />
+      <header className="github-user__header">
+        <Switch />
+        <Search />
+      </header>
+      <article className="github-user__container bg-secondary border-r-06 b-shadow">
+        <Photo isLoading />
+        <CardUserNames isLoading />
+        <CardUserBio isLoading />
+        <CardStatistics isLoading />
+        <CardSocialNetworks isLoading />
+      </article>
     </section>
   );
 };
