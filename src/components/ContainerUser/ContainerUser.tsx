@@ -1,11 +1,12 @@
 import "./ContainerUser.scss";
 
-import { Photo } from "../Photo";
-import { CardUserNames } from "../CardUserNames";
-import { CardUserBio } from "../CardUserBio";
-
-import { CardStatistics } from "../CardStatistics";
-import { CardSocialNetworks } from "../CardSocialNetworks";
+import {
+  Photo,
+  CardUserNames,
+  CardUserBio,
+  CardStatistics,
+  CardSocialNetworks,
+} from "@/components";
 
 const ContainerUser = () => {
   return (

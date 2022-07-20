@@ -1,5 +1,6 @@
-import Skeleton from "./Skeleton";
 import "./CardUserNames.scss";
+
+import Skeleton from "./Skeleton";
 
 const CardUserNames = (isLoading: any) => {
   if (isLoading) {

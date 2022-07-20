@@ -1,7 +1,7 @@
-import { SkeletonElement } from "../Skeleton";
-import { socialNetworks } from "../../data";
-
 import "./CardSocialNetworks.scss";
+
+import { Skeleton } from "@/components";
+import { socialNetworks } from "@/data";
 
 const CardSocialNetworks = (isLoading: any) => {
   return (
@@ -10,7 +10,7 @@ const CardSocialNetworks = (isLoading: any) => {
         <div className={`social-network__${socialNetwork.name}`} key={index}>
           <i className={`${socialNetwork.icon}`}></i>
           {isLoading ? (
-            <SkeletonElement wrapperStyles={{ height: "1.2rem" }} />
+            <Skeleton wrapperStyles={{ height: "1.2rem" }} />
           ) : (
             <p>Not Available</p>
           )}

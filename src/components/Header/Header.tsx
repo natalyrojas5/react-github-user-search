@@ -1,7 +1,6 @@
 import "./Header.scss";
 
-import { Search } from "../Search";
-import { Switch } from "../Switch";
+import { Search, Switch } from "@/components";
 
 const Header = () => {
   return (

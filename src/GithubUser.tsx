@@ -1,6 +1,6 @@
 import "./GithubUser.scss";
-import { Header } from "./components/Header";
-import { ContainerUser } from "./components/ContainerUser";
+import { Header } from "@/components/Header";
+import { ContainerUser } from "@/components/ContainerUser";
 
 const GithubUser = () => {
   return (

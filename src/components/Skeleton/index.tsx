@@ -1,3 +1,3 @@
-import SkeletonElement from "./Skeleton";
+import Skeleton from "./Skeleton";
 
-export { SkeletonElement };
+export { Skeleton };

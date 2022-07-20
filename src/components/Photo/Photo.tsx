@@ -1,12 +1,13 @@
-import { SkeletonElement } from "../../components/Skeleton";
-import { IconGithub } from "../../assets/icons";
 import "./Photo.scss";
+
+import { Skeleton } from "@/components";
+import { IconGithub } from "@/assets/icons";
 
 const Photo = (isLoading: any) => {
   return (
     <div className="photo">
       {isLoading ? (
-        <SkeletonElement
+        <Skeleton
           wrapperStyles={{
             height: "6rem",
             width: "6rem",

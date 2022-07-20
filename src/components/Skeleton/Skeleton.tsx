@@ -1,7 +1,8 @@
-import { WrapperSkeleton } from "../../wrappers/Skeleton";
 import styles from "./styles";
 
-const SkeletonElement = ({
+import { WrapperSkeleton } from "@/wrappers/Skeleton";
+
+const Skeleton = ({
   wrapperStyles = styles.wrapper,
   skeletonStyles = styles.skeleton,
 }: any) => {
@@ -12,4 +13,4 @@ const SkeletonElement = ({
   );
 };
 
-export default SkeletonElement;
+export default Skeleton;
