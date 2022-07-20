@@ -5,7 +5,7 @@ import { CardUserNames } from "../CardUserNames";
 import { CardUserBio } from "../CardUserBio";
 
 import { CardStatistics } from "../CardStatistics";
-import { CardSocialMedia } from "../CardSocialMedia";
+import { CardSocialNetworks } from "../CardSocialNetworks";
 
 const ContainerUser = () => {
   return (
@@ -14,7 +14,7 @@ const ContainerUser = () => {
       <CardUserNames isLoading />
       <CardUserBio isLoading />
       <CardStatistics isLoading />
-      <CardSocialMedia isLoading />
+      <CardSocialNetworks isLoading />
     </article>
   );
 };
