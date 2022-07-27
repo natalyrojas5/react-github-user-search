@@ -2,8 +2,9 @@ import "./Photo.scss";
 
 import { Skeleton } from "@/components";
 import { IconGithub } from "@/assets/icons";
+import { UserPhoto } from "@/interfaces/components";
 
-const Photo = (isLoading: any) => {
+const Photo = ({ isLoading, url }: UserPhoto) => {
   return (
     <div className="photo">
       {isLoading ? (
@@ -15,7 +16,7 @@ const Photo = (isLoading: any) => {
           }}
         />
       ) : (
-        <img src={IconGithub} alt="Icon Person" />
+        <img src={url ? url : IconGithub} alt="Icon Person" />
       )}
     </div>
   );

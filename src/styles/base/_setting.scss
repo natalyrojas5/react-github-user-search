@@ -9,13 +9,11 @@
   --c-purple-200: #fff;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --c-dark-primary: #d3edff66;
-    --c-white: #2c2c2c;
-    --c-dark-secondary: #ffff;
-    --c-gray-100: #ababab;
-    --c-gray-300: #777777;
-    --c-purple-200: #787db0;
-  }
+main[data-theme="LIGHT"] {
+  --c-dark-primary: #d3edff66;
+  --c-white: #2c2c2c;
+  --c-dark-secondary: #ffff;
+  --c-gray-100: #ababab;
+  --c-gray-300: #777777;
+  --c-purple-200: #787db0;
 }

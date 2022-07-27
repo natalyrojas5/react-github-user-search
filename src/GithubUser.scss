@@ -45,8 +45,8 @@ main {
         grid-row: 1 /3;
       }
       & .card-user-bio,
-      & .card-statistics,
-      & .card-social-media {
+      & .card-github-user-statistics,
+      & .card-social-networks {
         grid-column: 1 / 3;
       }
     }

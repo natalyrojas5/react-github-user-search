@@ -3,9 +3,8 @@ import { Search } from "./Search";
 import { Skeleton } from "./Skeleton";
 import { Switch } from "./Switch";
 
-/* Component Card */
 import { CardSocialNetworks } from "./CardSocialNetworks";
-import { CardStatistics } from "./CardStatistics";
+import { GithubUserStatistics } from "./CardGithubUserStatistics";
 import { CardUserBio } from "./CardUserBio";
 import { CardUserNames } from "./CardUserNames";
 
@@ -15,7 +14,7 @@ export {
   Switch,
   Skeleton,
   CardSocialNetworks,
-  CardStatistics,
+  GithubUserStatistics,
   CardUserBio,
   CardUserNames,
 };
