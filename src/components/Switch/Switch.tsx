@@ -1,7 +1,8 @@
 import "./Switch.scss";
 import { themes } from "@/common";
+import { Switch as SwitchInterface } from "@/interfaces/components";
 
-const Switch = ({ changeMode, theme }: any) => {
+const Switch = ({ changeMode, theme }: SwitchInterface) => {
   const isLightTheme = theme === themes.light;
   return (
     <div className="switch">

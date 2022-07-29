@@ -1,6 +1,7 @@
 import "./Search.scss";
+import { Search as SearchInterface } from "@/interfaces/components";
 
-const Search = ({ onSearch, handleInputChange }: any) => {
+const Search = ({ onSearch, handleInputChange }: SearchInterface) => {
   return (
     <div className="search bg-secondary border-r-06 b-shadow">
       <div className="search__icon">

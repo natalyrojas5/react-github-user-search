@@ -16,7 +16,7 @@ const Photo = ({ isLoading, url }: UserPhoto) => {
           }}
         />
       ) : (
-        <img src={url ? url : IconGithub} alt="Icon Person" />
+        <img src={url ?? IconGithub} alt="Icon Person" />
       )}
     </div>
   );
