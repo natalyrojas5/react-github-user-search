@@ -8,10 +8,12 @@ import {
   CardUserBio,
   GithubUserStatistics,
   CardSocialNetworks,
+  Message,
 } from "@/components";
 import useGithubUser from "@/hooks/useGithubUser";
 import useSwichMode from "@/hooks/useSwichMode";
 import { hasValues } from "./utils";
+import { message } from "./common";
 
 const GithubUser = () => {
   const { changeMode, theme } = useSwichMode();
@@ -19,6 +21,7 @@ const GithubUser = () => {
   const {
     loading,
     user: { names, bio, githubStatistics, photo, socialNetworks },
+    error,
   } = state;
   const hasNames = hasValues(names);
 
@@ -28,8 +31,8 @@ const GithubUser = () => {
         <Switch changeMode={changeMode} theme={theme} />
         <Search onSearch={searchUser} handleInputChange={handleInputChange} />
       </header>
-      {hasNames}
-      {hasNames && (
+      {error && <Message text={error} type="error" />}
+      {hasNames && !error && (
         <article className="github-user__container bg-secondary border-r-06 b-shadow">
           <Photo isLoading={loading} url={photo} />
           <CardUserNames
