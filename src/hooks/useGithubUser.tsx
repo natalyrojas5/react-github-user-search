@@ -73,6 +73,7 @@ const useGithubUser = () => {
     setState((prev) => ({
       ...prev,
       loading: true,
+      error: "",
     }));
     try {
       const responseJSON = await getUser(username);
@@ -82,7 +83,14 @@ const useGithubUser = () => {
           ...prev,
           user: formatJSON(user),
         }));
+        return;
       }
+
+      setState((prev: any) => ({
+        ...prev,
+        user: initialState.user,
+        error: "No se encontro usuario",
+      }));
     } catch (error) {
       console.error(error);
       setState((prev) => ({
