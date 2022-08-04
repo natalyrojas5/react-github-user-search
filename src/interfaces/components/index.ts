@@ -5,6 +5,7 @@ import { UserNames } from "./UserNames";
 import { UserBio } from "./UserBio";
 import { Search } from "./Search";
 import { Switch } from "./Switch";
+import { Message } from "./Message";
 
 export type {
   UserPhoto,
@@ -14,4 +15,5 @@ export type {
   GithubUserStatistics,
   Search,
   Switch,
+  Message,
 };

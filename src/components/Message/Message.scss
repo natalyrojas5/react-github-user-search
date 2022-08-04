@@ -1,0 +1,12 @@
+.message {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  & i {
+    font-size: 3rem;
+  }
+  & p {
+    font-size: 1.2rem;
+  }
+}
