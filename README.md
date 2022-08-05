@@ -1,7 +1,5 @@
 # GitHub User Search
 
-# GitHub User Search
-
 ![Static Job Listings Master Light](./screenshot-light.png)
 ![Static Job Listings Master Dark](./screenshot-dark.png)
 
